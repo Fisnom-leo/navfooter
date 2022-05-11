@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rebeccapurple;
+    font-weight: bold;
+    
+
+}
+.cont li{
+    display: inline-block;
+        
+}
+
+
+.cont li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.cont :last-child{
+    float: right;
+    margin: 0.5rem 2rem;
+
+}
+p{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.tex{
+    text-align: center;
+    text-decoration: dashed;
+    
+    
+}
+h1{
+    margin: 9%;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 56, 56);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+}
